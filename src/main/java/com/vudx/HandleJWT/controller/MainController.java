@@ -9,4 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MainController {
 
+  @Override
+  public int hashCode() {
+    return super.hashCode();
+  }
 }
